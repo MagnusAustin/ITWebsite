@@ -1,0 +1,89 @@
+body {
+  background-color: #D5E2F2;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* general */
+.container {
+  padding: 0px 40px;
+}
+
+.tags {
+  gap: 31px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* lowernav */
+.tags a {
+  font-family: 'Arvo', serif;
+  color: #142240;
+}
+
+.main-logo {
+  height: 70px;
+}
+
+.uppernav {
+  height: 48px;
+}
+
+.lowernav {
+  padding: 5px 40px;
+  background-color: #D5E2F2;
+  font-size: 22.5px;
+  height: 90px;
+  justify-content: space-between;
+}
+
+.intro {
+  font-family: 'Arvo', serif;
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-bottom: 37px;
+  background-color: #D5E2F2;
+  width: 700px
+}
+
+.model {
+  width: 100px;
+  height: 100px;
+}
+
+.features {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.card-features {
+
+  margin-top: 40px;
+  padding-bottom: 40px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 30%
+}
+
+.card-features img {
+  width: 50px;
+}
