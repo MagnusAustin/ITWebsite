@@ -1,20 +1,5 @@
-const carouselContainer = document.querySelector('.carousel-container');
-const prevBtn = document.querySelector('.carousel-prev');
-const nextBtn = document.querySelector('.carousel-next');
+let width = screen.width;
 
-let slideIndex = 0;
-
-prevBtn.addEventListener('click', () => {
-  slideIndex = Math.max(slideIndex - 1, 0);
-  updateCarousel();
-});
-
-nextBtn.addEventListener('click', () => {
-  slideIndex = Math.min(slideIndex + 1, carouselContainer.children.length - 1);
-  updateCarousel();
-});
-
-function updateCarousel() {
-  const slideWidth = carouselContainer.clientWidth;
-  carouselContainer.style.transform = `translateX(${-slideIndex * slideWidth}px)`;
+if (width <= 414) {
+  document.querySelector(".intro-text").innerHTML = '    <div class="row"><div class="col"><div class="intro"><h1><b>Welcome to Department of Information Technology</b></h1><br><p>The Department is established in 2014 with an intake capacity of 60. In the Information Technology Department, besides imparting theoretical knowledge, a lot of stress is laid on hands-on training and the overall development of the individuals personality.</p></div></div>'
 }
