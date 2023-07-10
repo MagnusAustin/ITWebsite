@@ -129,4 +129,7 @@ a {
 
 .events-cards{
   padding-bottom: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
