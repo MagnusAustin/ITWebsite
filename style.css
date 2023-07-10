@@ -126,3 +126,7 @@ a {
 .bullet-padding{
   padding: 0 2% 0 2% ;
 }
+
+.events-cards{
+  justify-content: center;
+}
